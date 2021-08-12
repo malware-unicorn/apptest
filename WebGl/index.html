@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | unity</title>
+    <title>Unity WebGL Player | adventure-game</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,20 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">unity</div>
+        <div id="unity-build-title">adventure-game</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGl.data.br",
-        frameworkUrl: buildUrl + "/WebGl.framework.js.br",
-        codeUrl: buildUrl + "/WebGl.wasm.br",
+        dataUrl: buildUrl + "/WebGl.data.gz",
+        frameworkUrl: buildUrl + "/WebGl.framework.js.gz",
+        codeUrl: buildUrl + "/WebGl.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "unity",
-        productVersion: "1.0",
+        productName: "adventure-game",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
