@@ -28,7 +28,10 @@ VALUES
 	(4,1,1,4,'Permission','fa-ban','/info/permission','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00'),
 	(5,1,1,5,'Menu','fa-bars','/menu','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00'),
 	(6,1,1,6,'Operation log','fa-history','/info/op','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00'),
-	(7,0,1,1,'Dashboard','fa-bar-chart','/','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00');
+	(7,0,1,1,'Dashboard','fa-bar-chart','/','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00'),
+  (8,0,1,3,'Players','fa-user','/info/players','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00'),
+  (9,0,1,4,'WorldItems','fa-user','/info/worlditems','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00'),
+  (10,0,1,5,'Flags','fa-user','/info/flags','',NULL,'2019-09-10 00:00:00','2019-09-10 00:00:00');
 
 /*!40000 ALTER TABLE `goadmin_menu` ENABLE KEYS */;
 UNLOCK TABLES;
